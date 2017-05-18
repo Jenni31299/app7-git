@@ -5,10 +5,10 @@ xmlns:gap="http://phonegap.com/ns/1.0"
 id="com.phonegap.example!"
 version="1.0.0">
 
-<name> app7 dezlizar hacia la izquierda y ala drecha </name>
+<name> app7 dezlizar hacia la izquierda y ala derecha </name>
 
 <description>
-Aplicacion que realiza elswipe o dezlizar en el dispositivo
+Aplicacion que realiza el swipe o dezlizar en el dispositivo
 </description>
 
 <author href="https://build.phonegap.com" email="hernandezromerojennifer@gmail.com">
@@ -36,8 +36,6 @@ jennifer hernández romero 4 g
 <!--Third party plugins-->
 
 <!--Para accesar a paginas en internet-->
-<allow-intent href="https://*/*">
-<acces origin="https://*/*">
 <allow-intent href="https://*/*">
 <acces origin="https://*/*">
 <plugin name="cordova-plugin-whitelist" source="npm"/>
