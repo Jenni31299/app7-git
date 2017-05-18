@@ -4,10 +4,10 @@ $ (document).ready(function (e){
 	document.addEventListener("deviceready", function(){
 		
 		$('#izquierda').on("swipeleft",function(){
-			navigator.notificacion.alert ("dezlizar a la izquierda",function(){"aplicacion7","Aceptar"
+navigator.notificacion.alert ("dezlizar a la izquierda",function(){"aplicacion7","Aceptar"
 });
 			
-		$('#derecha').on("swipeleft",function(){
+		$('#derecha').on("swiperight",function(){
 			navigator.notificacion.confirm("¿Que quieres hacer?",function(opt){
 				switch(opt)
 		{
